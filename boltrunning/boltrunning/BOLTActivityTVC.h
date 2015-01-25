@@ -1,5 +1,5 @@
 //
-//  BOLTProfileTVC.h
+//  BOLTActivityTVC.h
 //  boltrunning
 //
 //  Created by Blake Crosley on 1/24/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BOLTProfileTVC : UITableViewController
+@interface BOLTActivityTVC : UITableViewController
 
 @end

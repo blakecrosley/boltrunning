@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  BOLTMainTBC.h
 //  boltrunning
 //
 //  Created by Blake Crosley on 1/24/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface BOLTMainTBC : UITabBarController
 
 @end
-

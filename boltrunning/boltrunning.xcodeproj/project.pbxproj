@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		254416101A74459F0067C34B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2544160F1A74459F0067C34B /* main.m */; };
 		254416131A74459F0067C34B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 254416121A74459F0067C34B /* AppDelegate.m */; };
-		254416161A74459F0067C34B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254416151A74459F0067C34B /* FirstViewController.m */; };
-		254416191A74459F0067C34B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254416181A74459F0067C34B /* SecondViewController.m */; };
 		2544161C1A74459F0067C34B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2544161A1A74459F0067C34B /* Main.storyboard */; };
 		2544161E1A74459F0067C34B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2544161D1A74459F0067C34B /* Images.xcassets */; };
 		254416211A74459F0067C34B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2544161F1A74459F0067C34B /* LaunchScreen.xib */; };
 		2544162D1A74459F0067C34B /* boltrunningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2544162C1A74459F0067C34B /* boltrunningTests.m */; };
-		254416381A7446500067C34B /* BOLTProfileTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 254416371A7446500067C34B /* BOLTProfileTVC.m */; };
+		254EC7C31A7469D7000F23F0 /* BOLTRunVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 254EC7C21A7469D7000F23F0 /* BOLTRunVC.m */; };
+		254EC7C61A7469F4000F23F0 /* BOLTProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 254EC7C51A7469F4000F23F0 /* BOLTProfileVC.m */; };
+		254EC7C91A746A22000F23F0 /* BOLTActivityTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 254EC7C81A746A22000F23F0 /* BOLTActivityTVC.m */; };
+		258657411A746340000FA135 /* BOLTMainTBC.m in Sources */ = {isa = PBXBuildFile; fileRef = 258657401A746340000FA135 /* BOLTMainTBC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,18 +35,20 @@
 		2544160F1A74459F0067C34B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		254416111A74459F0067C34B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		254416121A74459F0067C34B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		254416141A74459F0067C34B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		254416151A74459F0067C34B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		254416171A74459F0067C34B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		254416181A74459F0067C34B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		2544161B1A74459F0067C34B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2544161D1A74459F0067C34B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		254416201A74459F0067C34B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		254416261A74459F0067C34B /* boltrunningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boltrunningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2544162B1A74459F0067C34B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2544162C1A74459F0067C34B /* boltrunningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = boltrunningTests.m; sourceTree = "<group>"; };
-		254416361A7446500067C34B /* BOLTProfileTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOLTProfileTVC.h; sourceTree = "<group>"; };
-		254416371A7446500067C34B /* BOLTProfileTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOLTProfileTVC.m; sourceTree = "<group>"; };
+		254EC7C11A7469D7000F23F0 /* BOLTRunVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOLTRunVC.h; sourceTree = "<group>"; };
+		254EC7C21A7469D7000F23F0 /* BOLTRunVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOLTRunVC.m; sourceTree = "<group>"; };
+		254EC7C41A7469F4000F23F0 /* BOLTProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOLTProfileVC.h; sourceTree = "<group>"; };
+		254EC7C51A7469F4000F23F0 /* BOLTProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOLTProfileVC.m; sourceTree = "<group>"; };
+		254EC7C71A746A22000F23F0 /* BOLTActivityTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOLTActivityTVC.h; sourceTree = "<group>"; };
+		254EC7C81A746A22000F23F0 /* BOLTActivityTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOLTActivityTVC.m; sourceTree = "<group>"; };
+		2586573F1A746340000FA135 /* BOLTMainTBC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOLTMainTBC.h; sourceTree = "<group>"; };
+		258657401A746340000FA135 /* BOLTMainTBC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOLTMainTBC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,16 +92,18 @@
 			children = (
 				254416111A74459F0067C34B /* AppDelegate.h */,
 				254416121A74459F0067C34B /* AppDelegate.m */,
-				254416141A74459F0067C34B /* FirstViewController.h */,
-				254416151A74459F0067C34B /* FirstViewController.m */,
-				254416171A74459F0067C34B /* SecondViewController.h */,
-				254416181A74459F0067C34B /* SecondViewController.m */,
 				2544161A1A74459F0067C34B /* Main.storyboard */,
 				2544161D1A74459F0067C34B /* Images.xcassets */,
 				2544161F1A74459F0067C34B /* LaunchScreen.xib */,
 				2544160D1A74459F0067C34B /* Supporting Files */,
-				254416361A7446500067C34B /* BOLTProfileTVC.h */,
-				254416371A7446500067C34B /* BOLTProfileTVC.m */,
+				2586573F1A746340000FA135 /* BOLTMainTBC.h */,
+				258657401A746340000FA135 /* BOLTMainTBC.m */,
+				254EC7C11A7469D7000F23F0 /* BOLTRunVC.h */,
+				254EC7C21A7469D7000F23F0 /* BOLTRunVC.m */,
+				254EC7C41A7469F4000F23F0 /* BOLTProfileVC.h */,
+				254EC7C51A7469F4000F23F0 /* BOLTProfileVC.m */,
+				254EC7C71A746A22000F23F0 /* BOLTActivityTVC.h */,
+				254EC7C81A746A22000F23F0 /* BOLTActivityTVC.m */,
 			);
 			path = boltrunning;
 			sourceTree = "<group>";
@@ -229,11 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				254416191A74459F0067C34B /* SecondViewController.m in Sources */,
 				254416131A74459F0067C34B /* AppDelegate.m in Sources */,
-				254416381A7446500067C34B /* BOLTProfileTVC.m in Sources */,
-				254416161A74459F0067C34B /* FirstViewController.m in Sources */,
+				254EC7C91A746A22000F23F0 /* BOLTActivityTVC.m in Sources */,
+				254EC7C31A7469D7000F23F0 /* BOLTRunVC.m in Sources */,
 				254416101A74459F0067C34B /* main.m in Sources */,
+				258657411A746340000FA135 /* BOLTMainTBC.m in Sources */,
+				254EC7C61A7469F4000F23F0 /* BOLTProfileVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +432,7 @@
 				254416321A74459F0067C34B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		254416331A74459F0067C34B /* Build configuration list for PBXNativeTarget "boltrunningTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +441,7 @@
 				254416351A74459F0067C34B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

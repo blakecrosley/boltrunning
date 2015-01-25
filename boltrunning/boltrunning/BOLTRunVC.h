@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  BOLTRunVC.h
 //  boltrunning
 //
 //  Created by Blake Crosley on 1/24/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface BOLTRunVC : UIViewController
 
 @end
-

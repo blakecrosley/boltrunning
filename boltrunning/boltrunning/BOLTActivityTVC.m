@@ -1,18 +1,18 @@
 //
-//  BOLTProfileTVC.m
+//  BOLTActivityTVC.m
 //  boltrunning
 //
 //  Created by Blake Crosley on 1/24/15.
 //  Copyright (c) 2015 Blake Crosley. All rights reserved.
 //
 
-#import "BOLTProfileTVC.h"
+#import "BOLTActivityTVC.h"
 
-@interface BOLTProfileTVC ()
+@interface BOLTActivityTVC ()
 
 @end
 
-@implementation BOLTProfileTVC
+@implementation BOLTActivityTVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -38,7 +38,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 2;
+    return 3;
 }
 
 
